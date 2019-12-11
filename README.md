@@ -6,7 +6,7 @@ Throttle API for [toggle](https://github.com/toggl/toggl_api_docs/blob/master/to
 
 ## Installation 
 ```shell
-$ go get -u github.com/dougEfresh/gtoggl-api
+$ go get -u github.com/kruc/gtoggl-api
 $ go get -u github.com/dougEfresh/gtoggl
 ```
 
@@ -14,7 +14,7 @@ $ go get -u github.com/dougEfresh/gtoggl
 
 ```go
 import "github.com/dougEfresh/gtoggl"
-import "github.com/dougEfresh/gtoggl-api/gtproject"
+import "github.com/kruc/gtoggl-api/gtproject"
 
 func main() {
   thc, err := gtoggl.NewClient("token")

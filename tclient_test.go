@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/dougEfresh/gtoggl-api/gthttp"
+	"github.com/kruc/gtoggl-api/gthttp"
 )
 
 type mockTransport struct {
